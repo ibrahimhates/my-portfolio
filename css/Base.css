@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.subtitle1{
+	font-size: 1.03rem;
+	color: #100147;
+	line-height: 0.7rem;
+}
+
+.subtitle2{
+	font-size: 1.4rem;
+	color:#575656;
+	line-height: 1.3rem;
+	margin-bottom: 1.9rem;
+}
+
+.bg1-LB {
+    background: no-repeat url("../assets/img/bg1-lb.png") top left;
+    background-size: auto 100%; /* Yükseklik boyunca tamamen kaplamasını sağlar */
+    background-position: left; /* Yatayda sadece sola yapışık olmasını sağlar */
+    background-attachment: fixed; /* Sayfanın kaydırılmasına bağlı olarak sabitlenir */
+}
+
+@media (max-width: 992px) {
+    /* Küçük ekranlar için arka plan pozisyonunu ayarla */
+    .bg1-LB {
+        background-position: left;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Metnin üst üste binmesini önlemek için metin hizalamasını ayarlayın */
+    .text-md-start {
+        text-align: center;
+    }
+}
+
+.bgcolor1{background: #f5f5f5;}
+.bgcolor2{background: #017ced;}
+.bgcolor3{background: #2b2b2b;}
+
+.color2{color: #017ced;}
+
+
+.skills-card{
+	background: #fff;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 4px 4px 10px #e1e0e0;
+}
+
+.dlink a{
+	color: inherit;
+}
+
